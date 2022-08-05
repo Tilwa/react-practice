@@ -1,6 +1,8 @@
 import "./App.css";
 import LecNo3 from "./components/LecNo3";
 import LecNo4 from "./components/LecNo4";
+import LecNo5 from "./components/LecNo5";
+import LecNo6 from "./components/LecNo6";
 import User from "./User";
 
 function App() {
@@ -11,10 +13,11 @@ function App() {
       <User name="afaq" email="afaq@gmail.com" contact="2132433" />
       <User name="umair" email="umair@gmail.com" contact="98798789" /> */}
       {/* Lecture number 2 code ends */}
-
       {/* <LecNo3 /> */}
+      {/* <LecNo4 /> */}
+      {/* <LecNo5 /> */}
 
-      <LecNo4 />
+      <LecNo6 />
     </div>
   );
 }

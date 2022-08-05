@@ -53,7 +53,7 @@ const LecNo4 = () => {
             setTextValue(!textValue);
           }}
         >
-          Hide Heading
+          {textValue === true ? "Hide Heading" : "Show Heading"}
         </button>
         {textValue && <h1>My name is Shahrukh</h1>}
 
@@ -65,7 +65,7 @@ const LecNo4 = () => {
             setColorValue(colorValue === "blue" ? "red" : "blue");
           }}
         >
-          Hide Heading
+          Change Color Style
         </button>
         <h1 style={{ color: colorValue }}>My name is Shahrukh</h1>
 
