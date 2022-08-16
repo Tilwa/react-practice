@@ -3,6 +3,8 @@ import LecNo3 from "./components/LecNo3";
 import LecNo4 from "./components/LecNo4";
 import LecNo5 from "./components/LecNo5";
 import LecNo6 from "./components/LecNo6";
+import LecNo7 from "./components/LecNo7";
+import TaskNo7 from "./components/TaskNo7";
 import User from "./User";
 
 function App() {
@@ -16,8 +18,10 @@ function App() {
       {/* <LecNo3 /> */}
       {/* <LecNo4 /> */}
       {/* <LecNo5 /> */}
+      {/* <LecNo6 /> */}
+      {/* <LecNo7 /> */}
 
-      <LecNo6 />
+      <TaskNo7 />
     </div>
   );
 }
