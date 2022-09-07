@@ -4,8 +4,12 @@ import LecNo4 from "./components/LecNo4";
 import LecNo5 from "./components/LecNo5";
 import LecNo6 from "./components/LecNo6";
 import LecNo7 from "./components/LecNo7";
+import LecNo8 from "./components/LecNo8";
+import LecNo9 from "./components/LecNo9";
 import TaskNo7 from "./components/TaskNo7";
+
 import User from "./User";
+import LecNo11 from "./components/LecNo11";
 
 function App() {
   return (
@@ -20,8 +24,10 @@ function App() {
       {/* <LecNo5 /> */}
       {/* <LecNo6 /> */}
       {/* <LecNo7 /> */}
+      {/* <TaskNo7 /> */}
+      {/* <LecNo8 /> */}
 
-      <TaskNo7 />
+      <LecNo11 />
     </div>
   );
 }
